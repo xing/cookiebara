@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Cookiebara::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Timothy Payton", "Ömür Özkir"]
-  s.email       = [""]
+  s.email       = ["timothy.payton@xing.com", "oemuer.oezkir@xing.com"]
   s.homepage    = ""
   s.summary     = %q{Manipulate cookies in your tests}
   s.description = %q{A workaround to read and write cookies in your capybara-driven testcases}
