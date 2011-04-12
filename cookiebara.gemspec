@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "cookiebara"
   s.version     = Cookiebara::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Timothy Payton", "Ömür Özkir"]
+  s.authors     = ["Timothy Payton", "Oemuer Oezkir"]
   s.email       = ["timothy.payton@xing.com", "oemuer.oezkir@xing.com"]
   s.homepage    = ""
   s.summary     = %q{Manipulate cookies in your tests}
