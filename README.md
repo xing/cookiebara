@@ -14,9 +14,9 @@ To use this in your Rails tests, simply do the following steps:
 
 #### In your test cases:
 
-_Example for Test/Unit_
+_Example for ActionController::IntegrationTest
 
-    class MooTest < Test::Unit::TestCase
+    class MooTest < ActionController::IntegrationTest
       include Capybara
       include Cookiebara
 
@@ -29,6 +29,6 @@ Cookiebara adds three new methods to your testcases:
 
 `current_session # => returns the current session`
 
-`update_session("user_name => "MastaBlasta")`
+`update_session("user_name" => "MastaBlasta")`
 
 `clear_cookies # not a bad idea to use in your setup or teardown`
