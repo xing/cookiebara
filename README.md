@@ -32,3 +32,5 @@ Cookiebara adds three new methods to your testcases:
 `update_session("user_name" => "MastaBlasta")`
 
 `clear_cookies # not a bad idea to use in your setup or teardown`
+
+`update_cookie(:user_id => 42)`
