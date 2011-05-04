@@ -14,7 +14,7 @@ To use this in your Rails tests, simply do the following steps:
 
 #### In your test cases:
 
-_Example for ActionController::IntegrationTest
+_Example for ActionController::IntegrationTest_
 
     class MooTest < ActionController::IntegrationTest
       include Capybara
