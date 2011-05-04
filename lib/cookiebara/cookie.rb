@@ -15,9 +15,9 @@ module Cookiebara
       end
 
       def cookie=(new_cookie)
-        cookie_value = session_verifier.generate(new_cookie.value)
+        cookie_value = session_verifier.generate(new_cookie.values.first)
         rack_mock_session.set_cookie(
-          "#{new_cookie.key}=#{cookie_value}",
+          "#{new_cookie.keys.first}=#{cookie_value}",
           URI.parse("http://www.example.com//")
         )
       end
