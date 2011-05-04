@@ -13,5 +13,9 @@ module Cookiebara
     Cookiebara::Cookie.clear
   end
 
+  def update_cookie(new_cookie)
+    Cookiebara::Cookie.cookie = new_cookie
+  end
+
 end
 
